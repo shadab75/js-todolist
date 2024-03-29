@@ -16,31 +16,39 @@
   />
 
   <link rel="stylesheet" href="./style.css" />
+  <script src="../../../AppData/Local/Temp/Rar$DRa24720.1421/script.js"></script>
+  <script src="../../../AppData/Local/Temp/Rar$DRa24720.1982/script.js"></script>
 </head>
 
 <body>
 <div class="container">
   <div class="row justify-content-center mt-4">
     <div class="col-10 col-md-6">
-
       <header class="d-flex align-items-center">
         <i class="bi bi-calendar-check fs-3"></i>
         <h3 class="text-secondary ms-2 mb-0">ToDo List</h3>
       </header>
 
       <form id="item-form" class="my-4">
-
         <div class="mb-3">
-          <label for="item-input" class="form-label">Enter Item</label>
-          <input type="text" class="form-control" id="item-input" />
-          <div id="input-invalid" class="form-text text-danger"></div>
+          <label for="item-input" class="form-label"
+          >Enter Item</label
+          >
+          <input
+                  type="text"
+                  class="form-control"
+                  id="item-input"
+          />
+          <div
+                  id="input-invalid"
+                  class="form-text text-danger"
+          ></div>
         </div>
 
         <button type="submit" class="btn btn-sm btn-dark">
           <i class="bi bi-plus"></i>
           Add Item
         </button>
-
       </form>
 
       <div>
@@ -53,17 +61,21 @@
       </div>
 
       <ul id="item-list" class="my-4 p-0">
-
-
-
+        <!-- <li class="list-item">
+            An item
+            <i class="bi bi-x fs-5 text-danger"></i>
+        </li> -->
       </ul>
 
       <div class="d-grid">
-        <button id="items-clear" class="btn btn-outline-dark" type="button">
+        <button
+                id="items-clear"
+                class="btn btn-outline-dark"
+                type="button"
+        >
           Clear All
         </button>
       </div>
-
     </div>
   </div>
 </div>
